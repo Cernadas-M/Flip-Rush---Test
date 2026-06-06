@@ -1,0 +1,1881 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script>
+            window.__IS_MOBILE = false;
+        </script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Real Kart 🕹️ Play Online | Bubblebox</title>
+        <link rel="canonical" href="https://bubblebox.com/real-kart">
+        <meta name="description" content="Chase your own ghost laps in Real Kart. Improve every run, customize your kart, and climb the leaderboard with perfect cornering.">
+        <link rel="manifest" href="/site.webmanifest"/>
+        <link rel="icon" href="/favicon.ico">
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <meta name="apple-mobile-web-app-title" content="BubbleBox"/>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+        <meta name="theme-color" content="#242F44">
+        <meta property="og:site_name" content="Bubblebox.com">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Real Kart 🕹️ Play Online | Bubblebox">
+        <meta property="og:description" content="Chase your own ghost laps in Real Kart. Improve every run, customize your kart, and climb the leaderboard with perfect cornering.">
+        <meta property="og:image" content="https://bubblebox.com/revive/img/real-kart-800.jpg">
+        <meta property="og:image:width" content="800">
+        <meta property="og:image:height" content="600">
+        <meta property="og:url" content="https://bubblebox.com/real-kart">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Real Kart 🕹️ Play Online | Bubblebox">
+        <meta name="twitter:description" content="Chase your own ghost laps in Real Kart. Improve every run, customize your kart, and climb the leaderboard with perfect cornering.">
+        <meta name="twitter:image" content="https://bubblebox.com/revive/img/real-kart-800.jpg">
+        <link rel="image_src" href="https://bubblebox.com/revive/img/real-kart-800.jpg">
+        <script>
+            window.__ASSET_BASES = {
+                img: "https:\/\/img.bubblebox.com\/"
+            };
+            const SIZES = '(max-width: 520px) 100vw, (max-width: 900px) 220px, 260px';
+        </script>
+        <link rel="preload" as="font" href="/revive/fonts/inter-var-latin.woff2" type="font/woff2" crossorigin>
+        <link rel="stylesheet" href="/revive/css/styles-min.css?v=32">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2005725797866936" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="page-progress"></div>
+        <header class="header" role="banner">
+            <div class="bar">
+                <a href="/" class="logo" aria-label="Bubblebox Home">
+                    <img src="https://img.bubblebox.com/logo.png" alt="Bubblebox Logo" class="logo-img">
+                </a>
+                <form class="search" role="search" action="/search" method="get" id="site-search">
+                    <svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                        <path d="M21 21l-4.3-4.3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                    <input class="search-input" type="search" name="q" placeholder="Search 1000's of Games" aria-label="Search games"/>
+                    <button class="kbd" type="button" title="Focus search (/)">/</button>
+                    <!-- optional visible submit button:
+		  <button type="submit" class="go" aria-label="Search">Enter</button>
+		  -->
+                </form>
+                <nav class="nav" aria-label="Primary">
+                    <!--<a href="/games" aria-label="Browse Games A-Z">Browse A-Z</a>-->
+                    <a href="/classic" class="no-drawer" aria-label="Classic Flash Games">Classic Games</a>
+                    <a href="/c/bubble-shooter" class="no-drawer" aria-label="Bubble Shooter Games">Bubble Shooter Games</a>
+                    <a href="/about" class="no-drawer" aria-label="About Us">About</a>
+                </nav>
+                <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="drawer" id="drawer" data-autofill="nav side">
+                <div class="drawer-wrap"></div>
+            </div>
+        </header>
+        <div class="layout">
+            <!-- Sidebar -->
+            <aside class="side" aria-label="Sidebar">
+                <div class="section">
+                    <a class="item" href="/new" aria-label="New Released">
+                        <svg class="icon icon--new" width="16" height="16" aria-hidden="true">
+                            <use href="/revive/includes/icons.svg#icon-new" xlink:href="/revive/includes/icons.svg#icon-new"></use>
+                        </svg>
+                        <div class="label">New Releases</div>
+                    </a>
+                    <a class="item" href="/updated" aria-label="Recently Updated Games">
+                        <svg class="icon icon--updated" width="16" height="16" aria-hidden="true">
+                            <use href="/revive/includes/icons.svg#icon-updated"></use>
+                        </svg>
+                        <div class="label">Updated Games</div>
+                        <div></div>
+                    </a>
+                    <a class="item" href="/my-games" aria-label="My Recently Played Games">
+                        <svg class="icon icon--recent" width="16" height="16" aria-hidden="true">
+                            <use href="/revive/includes/icons.svg#icon-recent"></use>
+                        </svg>
+                        <div class="label">My Games</div>
+                        <div></div>
+                    </a>
+                    <a class="item" href="/games/a" aria-label="Browse All Games A-Z">
+                        <svg class="icon icon--az" width="16" height="16" aria-hidden="true">
+                            <use href="/revive/includes/icons.svg#icon-az"></use>
+                        </svg>
+                        <div class="label">Games A–Z</div>
+                        <div></div>
+                    </a>
+                    <hr class="rule"/>
+                </div>
+                <div class="section" style="margin-top:30px">
+                    <a class="item no-drawer" href="/c/action" aria-label="action Games">
+                        <svg class="icon icon--action" width="16" height="16" aria-hidden="true">
+                            <use href="/revive/includes/icons.svg#icon-action"></use>
+                        </svg>
+                        <div class="label">action</div>
+                        <div></div>
+                    </a>
+                    <a class="item no-drawer" href="/c/sport" aria-label="sport Games">
+                        <svg class="icon icon--sport" width="16" height="16" aria-hidden="true">
+                            <use href="/revive/includes/icons.svg#icon-sport"></use>
+                        </svg>
+                        <div class="label">sport</div>
+                        <div></div>
+                    </a>
+                    <a class="item no-drawer" href="/c/puzzle" aria-label="puzzle Games">
+                        <svg class="icon icon--puzzle" width="16" height="16" aria-hidden="true">
+                            <use href="/revive/includes/icons.svg#icon-puzzle"></use>
+                        </svg>
+                        <div class="label">puzzle</div>
+                        <div></div>
+                    </a>
+                    <a class="item no-drawer" href="/c/racing" aria-label="racing Games">
+                        <svg class="icon icon--racing" width="16" height="16" aria-hidden="true">
+                            <use href="/revive/includes/icons.svg#icon-racing"></use>
+                        </svg>
+                        <div class="label">racing</div>
+                        <div></div>
+                    </a>
+                    <a class="item no-drawer" href="/c/adventure" aria-label="adventure Games">
+                        <svg class="icon icon--adventure" width="16" height="16" aria-hidden="true">
+                            <use href="/revive/includes/icons.svg#icon-adventure"></use>
+                        </svg>
+                        <div class="label">adventure</div>
+                        <div></div>
+                    </a>
+                    <a class="item no-drawer" href="/c/skill" aria-label="skill Games">
+                        <svg class="icon icon--skill" width="16" height="16" aria-hidden="true">
+                            <use href="/revive/includes/icons.svg#icon-skill"></use>
+                        </svg>
+                        <div class="label">skill</div>
+                        <div></div>
+                    </a>
+                    <a class="item no-drawer" href="/c/rpg" aria-label="rpg Games">
+                        <svg class="icon icon--rpg" width="16" height="16" aria-hidden="true">
+                            <use href="/revive/includes/icons.svg#icon-rpg"></use>
+                        </svg>
+                        <div class="label">rpg</div>
+                        <div></div>
+                    </a>
+                    <a class="item no-drawer" href="/c/platform" aria-label="platform Games">
+                        <svg class="icon icon--platform" width="16" height="16" aria-hidden="true">
+                            <use href="/revive/includes/icons.svg#icon-platform"></use>
+                        </svg>
+                        <div class="label">platform</div>
+                        <div></div>
+                    </a>
+                    <a class="item no-drawer" href="/c/shooting" aria-label="shooting Games">
+                        <svg class="icon icon--shooting" width="16" height="16" aria-hidden="true">
+                            <use href="/revive/includes/icons.svg#icon-shooting"></use>
+                        </svg>
+                        <div class="label">shooting</div>
+                        <div></div>
+                    </a>
+                    <a class="item no-drawer" href="/c/defense" aria-label="defense Games">
+                        <svg class="icon icon--defense" width="16" height="16" aria-hidden="true">
+                            <use href="/revive/includes/icons.svg#icon-defense"></use>
+                        </svg>
+                        <div class="label">defense</div>
+                        <div></div>
+                    </a>
+                    <a class="item no-drawer" href="/c/strategy" aria-label="strategy Games">
+                        <svg class="icon icon--strategy" width="16" height="16" aria-hidden="true">
+                            <use href="/revive/includes/icons.svg#icon-strategy"></use>
+                        </svg>
+                        <div class="label">strategy</div>
+                        <div></div>
+                    </a>
+                    <a class="item no-drawer" href="/c/multiplayer" aria-label="multiplayer Games">
+                        <svg class="icon icon--multiplayer" width="16" height="16" aria-hidden="true">
+                            <use href="/revive/includes/icons.svg#icon-multiplayer"></use>
+                        </svg>
+                        <div class="label">multiplayer</div>
+                        <div></div>
+                    </a>
+                    <a class="item no-drawer" href="/c/physics" aria-label="physics Games">
+                        <svg class="icon icon--physics" width="16" height="16" aria-hidden="true">
+                            <use href="/revive/includes/icons.svg#icon-physics"></use>
+                        </svg>
+                        <div class="label">physics</div>
+                        <div></div>
+                    </a>
+                    <a class="see-all nlink" aria-label="See all tags" href="/tags">See all Tags</a>
+                    <a class="item drawer-proxy" href="/tags" style="display:none">All Tags</a>
+                </div>
+            </aside>
+            <!-- Main -->
+            <main class="wrap">
+                <script>
+                    /* store for recent games */
+                    (function(w) {
+                        const KEY = 'bubblebox_recent_v1'
+                          , MAX = 12;
+                        function read() {
+                            try {
+                                const arr = JSON.parse(localStorage.getItem(KEY) || '[]');
+                                return Array.isArray(arr) ? arr.filter(n => Number.isInteger(n) && n > 0) : []
+                            } catch {
+                                return []
+                            }
+                        }
+                        function write(arr) {
+                            try {
+                                localStorage.setItem(KEY, JSON.stringify(arr.slice(0, MAX)))
+                            } catch {}
+                        }
+                        function add(id) {
+                            id = Number(id);
+                            if (!Number.isInteger(id) || id <= 0)
+                                return;
+                            const list = read().filter(n => n !== id);
+                            list.unshift(id);
+                            write(list);
+                            console.log('[recent] added', id, '->', list)
+                        }
+                        function list() {
+                            return read()
+                        }
+                        function clear() {
+                            localStorage.removeItem(KEY)
+                        }
+                        w.BUBBLEBOXRecent = {
+                            add,
+                            list,
+                            clear,
+                            KEY
+                        }
+                    }
+                    )(window)
+                </script>
+                <span id="game-id" data-game-id="4627" hidden aria-hidden="true"></span>
+                <h1 class="section-title">Real Kart</h1>
+                <div class="subtitle">Chase your own ghost laps in this karting sim.</div>
+                <div class="content">
+                    <!-- START CONTENT -->
+                    <!-- LEFT 60% -->
+                    <section class="col-left">
+                        <article class="card card--player no-target">
+                            <!-- INLINE EMBED MODE (Flash etc.) -->
+                            <div class="hero-media">
+                                <div id="gameContainer" class="wide" data-ideal-w="880" data-ideal-h="600">
+                                    <iframe src='https://playhop.com/dist-app/298465?utm_source=distrib&utm_medium=bubbleboxsl' width='100%' height='100%' style='border:0;' scrolling='no' allow='fullscreen; accelerometer; autoplay; clipboard-read; clipboard-write; geolocation; gyroscope; microphone; payment; picture-in-picture; publickey-credentials-get; publickey-credentials-create; storage-access; screen-wake-lock; speaker-selection; web-share; xr-spatial-tracking; encrypted-media; attribution-reporting; browsing-topics' allowfullscreen></iframe>
+                                </div>
+                                <button id="fsBtn" class="fs-btn fs-btn--abs" type="button" aria-pressed="false" title="Fullscren">
+                                    <svg class="icon icon--fullscreen" width="18" height="18" aria-hidden="true">
+                                        <use href="/revive/includes/icons.svg?v=1#icon-fullscreen"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                            <script>
+                                window.RufflePlayer = window.RufflePlayer || {};
+                                window.RufflePlayer.config = {
+                                    openUrlMode: "deny",
+                                    allowNetworking: "internal"
+                                };
+                            </script>
+                            <script src="/revive/ruffle2026/ruffle.js"></script>
+                            <!-- BUBBLEBOX META BLOCK -->
+                            <div class="meta meta--hero">
+                                <div class="meta-hero__left">
+                                    <div class="row--text">
+                                        <span>Developed by: Aglobex					</span>
+                                        <span>&bull;</span>
+                                        <span>UNITY</span>
+                                    </div>
+                                    <div class="tags">
+                                        <a class="nlink" href="/c/driving">
+                                            <span class="tag">driving</span>
+                                        </a>
+                                        <a class="nlink" href="/c/racing">
+                                            <span class="tag">racing</span>
+                                        </a>
+                                        <a class="nlink" href="/c/sport">
+                                            <span class="tag">sport</span>
+                                        </a>
+                                    </div>
+                                    <p class="prose">
+                                        Real Kart is all about improving your lap times by racing against yourself. Each time you complete a lap, your previous run is saved as a ghost, turning every new lap into a direct challenge against your own performance.<br>Customize your kart, jump back in, and keep shaving off seconds until you reach the top of the leaderboard.			
+                                    </p>
+                                    <br>
+                                    <div class="row--text">
+                                        <b>Instructions</b>
+                                    </div>
+                                    <div class="row--text">
+                                        Use Arrow keys or WASD to drive<br>
+                                        Press F to enter or reset your kart<br>
+                                        Press C to change the camera view
+<br>
+                                        <br>
+                                        Complete your first lap to create your ghost 🏁<br>
+                                        Each new lap adds another ghost to the track<br>Avoid mistakes and take better racing lines			
+                                    </div>
+                                    <div class="row--text"></div>
+                                </div>
+                                <aside class="meta-hero__right" aria-label="Ad">
+                                    <div class="right-side">
+                                        <!-- square_game_desc -->
+                                        <ins class="adsbygoogle bb-ad" style="display:block; width:100%;" data-ad-client="ca-pub-2005725797866936" data-ad-slot="4945496766" data-ad-format="auto" data-full-width-responsive="true"></ins>
+                                        <script>
+                                            (adsbygoogle = window.adsbygoogle || []).push({});
+                                        </script>
+                                    </div>
+                                    <div class="ad-below"></div>
+                                </aside>
+                            </div>
+                        </article>
+                        <!-- LEFT GRID (infinite scroll target) -->
+                        <section class="grid grid-left" aria-label="Game grid" data-initial-page="1">
+                            <article class="card">
+                                <a class="thumb" href="/mergeville" aria-label="Open MergeVille">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/mergeville-360.avif 1x, https://img.bubblebox.com/mergeville-480.avif 2x, https://img.bubblebox.com/mergeville-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/mergeville-360.webp 1x, https://img.bubblebox.com/mergeville-480.webp 2x, https://img.bubblebox.com/mergeville-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/mergeville-360.jpg  1x, https://img.bubblebox.com/mergeville-480.jpg  2x, https://img.bubblebox.com/mergeville-640.jpg  3x" type="image/jpeg">
+                                        <img src="https://img.bubblebox.com/mergeville-360.avif" alt="MergeVille cover" width="360" height="270" fetchpriority="high" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/mergeville-360.jpg" alt="MergeVille cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">MergeVille</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">adventure</span>
+                                        <span class="tag">management</span>
+                                        <span class="tag">strategy</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/pirates-and-puzzles" aria-label="Open Pirates and Puzzles 2">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/pirates-and-puzzles-360.avif 1x, https://img.bubblebox.com/pirates-and-puzzles-480.avif 2x, https://img.bubblebox.com/pirates-and-puzzles-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/pirates-and-puzzles-360.webp 1x, https://img.bubblebox.com/pirates-and-puzzles-480.webp 2x, https://img.bubblebox.com/pirates-and-puzzles-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/pirates-and-puzzles-360.jpg  1x, https://img.bubblebox.com/pirates-and-puzzles-480.jpg  2x, https://img.bubblebox.com/pirates-and-puzzles-640.jpg  3x" type="image/jpeg">
+                                        <img src="https://img.bubblebox.com/pirates-and-puzzles-360.avif" alt="Pirates and Puzzles 2 cover" width="360" height="270" fetchpriority="high" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/pirates-and-puzzles-360.jpg" alt="Pirates and Puzzles 2 cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">Pirates and Puzzles 2</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">match-3</span>
+                                        <span class="tag">multiplayer</span>
+                                        <span class="tag">puzzle</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/dinosaur-shifting-run" aria-label="Open Dinosaur Shifting Run">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/dinosaur-shifting-run-360.avif 1x, https://img.bubblebox.com/dinosaur-shifting-run-480.avif 2x, https://img.bubblebox.com/dinosaur-shifting-run-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/dinosaur-shifting-run-360.webp 1x, https://img.bubblebox.com/dinosaur-shifting-run-480.webp 2x, https://img.bubblebox.com/dinosaur-shifting-run-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/dinosaur-shifting-run-360.jpg  1x, https://img.bubblebox.com/dinosaur-shifting-run-480.jpg  2x, https://img.bubblebox.com/dinosaur-shifting-run-640.jpg  3x" type="image/jpeg">
+                                        <img src="https://img.bubblebox.com/dinosaur-shifting-run-360.avif" alt="Dinosaur Shifting Run cover" width="360" height="270" fetchpriority="high" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/dinosaur-shifting-run-360.jpg" alt="Dinosaur Shifting Run cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">Dinosaur Shifting Run</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">action</span>
+                                        <span class="tag">racing</span>
+                                        <span class="tag">dinosaur</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/drift-hunters" aria-label="Open Drift Hunters">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/drift-hunters-360.avif 1x, https://img.bubblebox.com/drift-hunters-480.avif 2x, https://img.bubblebox.com/drift-hunters-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/drift-hunters-360.webp 1x, https://img.bubblebox.com/drift-hunters-480.webp 2x, https://img.bubblebox.com/drift-hunters-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/drift-hunters-360.jpg  1x, https://img.bubblebox.com/drift-hunters-480.jpg  2x, https://img.bubblebox.com/drift-hunters-640.jpg  3x" type="image/jpeg">
+                                        <img src="https://img.bubblebox.com/drift-hunters-360.avif" alt="Drift Hunters cover" width="360" height="270" fetchpriority="high" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/drift-hunters-360.jpg" alt="Drift Hunters cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">Drift Hunters</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">driving</span>
+                                        <span class="tag">racing</span>
+                                        <span class="tag">skill</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/tank-stars" aria-label="Open Tank Stars">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/tank-stars-360.avif 1x, https://img.bubblebox.com/tank-stars-480.avif 2x, https://img.bubblebox.com/tank-stars-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/tank-stars-360.webp 1x, https://img.bubblebox.com/tank-stars-480.webp 2x, https://img.bubblebox.com/tank-stars-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/tank-stars-360.jpg  1x, https://img.bubblebox.com/tank-stars-480.jpg  2x, https://img.bubblebox.com/tank-stars-640.jpg  3x" type="image/jpeg">
+                                        <img src="https://img.bubblebox.com/tank-stars-360.avif" alt="Tank Stars cover" width="360" height="270" fetchpriority="high" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/tank-stars-360.jpg" alt="Tank Stars cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">Tank Stars</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">action</span>
+                                        <span class="tag">multiplayer</span>
+                                        <span class="tag">strategy</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/eparkour" aria-label="Open eParkour">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/eparkour-360.avif 1x, https://img.bubblebox.com/eparkour-480.avif 2x, https://img.bubblebox.com/eparkour-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/eparkour-360.webp 1x, https://img.bubblebox.com/eparkour-480.webp 2x, https://img.bubblebox.com/eparkour-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/eparkour-360.jpg  1x, https://img.bubblebox.com/eparkour-480.jpg  2x, https://img.bubblebox.com/eparkour-640.jpg  3x" type="image/jpeg">
+                                        <img src="https://img.bubblebox.com/eparkour-360.avif" alt="eParkour cover" width="360" height="270" fetchpriority="high" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/eparkour-360.jpg" alt="eParkour cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">eParkour</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">platform</span>
+                                        <span class="tag">skill</span>
+                                        <span class="tag">jumping</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/drift-boss" aria-label="Open Drift Boss">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/drift-boss-360.avif 1x, https://img.bubblebox.com/drift-boss-480.avif 2x, https://img.bubblebox.com/drift-boss-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/drift-boss-360.webp 1x, https://img.bubblebox.com/drift-boss-480.webp 2x, https://img.bubblebox.com/drift-boss-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/drift-boss-360.jpg  1x, https://img.bubblebox.com/drift-boss-480.jpg  2x, https://img.bubblebox.com/drift-boss-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Drift Boss cover" width="360" height="270" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/drift-boss-360.jpg" alt="Drift Boss cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">Drift Boss</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">arcade</span>
+                                        <span class="tag">driving</span>
+                                        <span class="tag">skill</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/bmg-ragdoll-car-race" aria-label="Open BMG: Ragdoll Car Race">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/bmg-ragdoll-car-race-360.avif 1x, https://img.bubblebox.com/bmg-ragdoll-car-race-480.avif 2x, https://img.bubblebox.com/bmg-ragdoll-car-race-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/bmg-ragdoll-car-race-360.webp 1x, https://img.bubblebox.com/bmg-ragdoll-car-race-480.webp 2x, https://img.bubblebox.com/bmg-ragdoll-car-race-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/bmg-ragdoll-car-race-360.jpg  1x, https://img.bubblebox.com/bmg-ragdoll-car-race-480.jpg  2x, https://img.bubblebox.com/bmg-ragdoll-car-race-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="BMG: Ragdoll Car Race cover" width="360" height="270" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/bmg-ragdoll-car-race-360.jpg" alt="BMG: Ragdoll Car Race cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">BMG: Ragdoll Car Race</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">driving</span>
+                                        <span class="tag">physics</span>
+                                        <span class="tag">racing</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/war-and-peace-2" aria-label="Open War and Peace 2">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/war-and-peace-2-360.avif 1x, https://img.bubblebox.com/war-and-peace-2-480.avif 2x, https://img.bubblebox.com/war-and-peace-2-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/war-and-peace-2-360.webp 1x, https://img.bubblebox.com/war-and-peace-2-480.webp 2x, https://img.bubblebox.com/war-and-peace-2-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/war-and-peace-2-360.jpg  1x, https://img.bubblebox.com/war-and-peace-2-480.jpg  2x, https://img.bubblebox.com/war-and-peace-2-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="War and Peace 2 cover" width="360" height="270" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/war-and-peace-2-360.jpg" alt="War and Peace 2 cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">War and Peace 2</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">management</span>
+                                        <span class="tag">multiplayer</span>
+                                        <span class="tag">strategy</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/shell-shockers" aria-label="Open Shell Shockers">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/shell-shockers-360.avif 1x, https://img.bubblebox.com/shell-shockers-480.avif 2x, https://img.bubblebox.com/shell-shockers-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/shell-shockers-360.webp 1x, https://img.bubblebox.com/shell-shockers-480.webp 2x, https://img.bubblebox.com/shell-shockers-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/shell-shockers-360.jpg  1x, https://img.bubblebox.com/shell-shockers-480.jpg  2x, https://img.bubblebox.com/shell-shockers-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Shell Shockers cover" width="360" height="270" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/shell-shockers-360.jpg" alt="Shell Shockers cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">Shell Shockers</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">action</span>
+                                        <span class="tag">FPS</span>
+                                        <span class="tag">multiplayer</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/pirate-ships-build-and-fight" aria-label="Open Pirate Ships: Build And Fight">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/pirate-ships-build-and-fight-360.avif 1x, https://img.bubblebox.com/pirate-ships-build-and-fight-480.avif 2x, https://img.bubblebox.com/pirate-ships-build-and-fight-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/pirate-ships-build-and-fight-360.webp 1x, https://img.bubblebox.com/pirate-ships-build-and-fight-480.webp 2x, https://img.bubblebox.com/pirate-ships-build-and-fight-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/pirate-ships-build-and-fight-360.jpg  1x, https://img.bubblebox.com/pirate-ships-build-and-fight-480.jpg  2x, https://img.bubblebox.com/pirate-ships-build-and-fight-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Pirate Ships: Build And Fight cover" width="360" height="270" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/pirate-ships-build-and-fight-360.jpg" alt="Pirate Ships: Build And Fight cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">Pirate Ships: Build And Fight</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">defense</span>
+                                        <span class="tag">multiplayer</span>
+                                        <span class="tag">strategy</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/pogo-masters" aria-label="Open Pogo Masters">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/pogo-masters-360.avif 1x, https://img.bubblebox.com/pogo-masters-480.avif 2x, https://img.bubblebox.com/pogo-masters-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/pogo-masters-360.webp 1x, https://img.bubblebox.com/pogo-masters-480.webp 2x, https://img.bubblebox.com/pogo-masters-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/pogo-masters-360.jpg  1x, https://img.bubblebox.com/pogo-masters-480.jpg  2x, https://img.bubblebox.com/pogo-masters-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Pogo Masters cover" width="360" height="270" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/pogo-masters-360.jpg" alt="Pogo Masters cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">Pogo Masters</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">arcade</span>
+                                        <span class="tag">multiplayer</span>
+                                        <span class="tag">physics</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/soccer-dash" aria-label="Open Soccer Dash">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/soccer-dash-360.avif 1x, https://img.bubblebox.com/soccer-dash-480.avif 2x, https://img.bubblebox.com/soccer-dash-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/soccer-dash-360.webp 1x, https://img.bubblebox.com/soccer-dash-480.webp 2x, https://img.bubblebox.com/soccer-dash-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/soccer-dash-360.jpg  1x, https://img.bubblebox.com/soccer-dash-480.jpg  2x, https://img.bubblebox.com/soccer-dash-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Soccer Dash cover" width="360" height="270" loading="lazy" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/soccer-dash-360.jpg" alt="Soccer Dash cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">Soccer Dash</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">physics</span>
+                                        <span class="tag">skill</span>
+                                        <span class="tag">sport</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/build-an-aquapark" aria-label="Open Build an Aquapark">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/build-an-aquapark-360.avif 1x, https://img.bubblebox.com/build-an-aquapark-480.avif 2x, https://img.bubblebox.com/build-an-aquapark-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/build-an-aquapark-360.webp 1x, https://img.bubblebox.com/build-an-aquapark-480.webp 2x, https://img.bubblebox.com/build-an-aquapark-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/build-an-aquapark-360.jpg  1x, https://img.bubblebox.com/build-an-aquapark-480.jpg  2x, https://img.bubblebox.com/build-an-aquapark-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Build an Aquapark cover" width="360" height="270" loading="lazy" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/build-an-aquapark-360.jpg" alt="Build an Aquapark cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">Build an Aquapark</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">management</span>
+                                        <span class="tag">kids</span>
+                                        <span class="tag">upgrades</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/enduro-cross-motorsport" aria-label="Open Enduro Cross Motorsport">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/enduro-cross-motorsport-360.avif 1x, https://img.bubblebox.com/enduro-cross-motorsport-480.avif 2x, https://img.bubblebox.com/enduro-cross-motorsport-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/enduro-cross-motorsport-360.webp 1x, https://img.bubblebox.com/enduro-cross-motorsport-480.webp 2x, https://img.bubblebox.com/enduro-cross-motorsport-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/enduro-cross-motorsport-360.jpg  1x, https://img.bubblebox.com/enduro-cross-motorsport-480.jpg  2x, https://img.bubblebox.com/enduro-cross-motorsport-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Enduro Cross Motorsport cover" width="360" height="270" loading="lazy" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/enduro-cross-motorsport-360.jpg" alt="Enduro Cross Motorsport cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">Enduro Cross Motorsport</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">driving</span>
+                                        <span class="tag">skill</span>
+                                        <span class="tag">sport</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/nurburgring-simulator" aria-label="Open Nürburgring Simulator">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/nurburgring-simulator-360.avif 1x, https://img.bubblebox.com/nurburgring-simulator-480.avif 2x, https://img.bubblebox.com/nurburgring-simulator-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/nurburgring-simulator-360.webp 1x, https://img.bubblebox.com/nurburgring-simulator-480.webp 2x, https://img.bubblebox.com/nurburgring-simulator-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/nurburgring-simulator-360.jpg  1x, https://img.bubblebox.com/nurburgring-simulator-480.jpg  2x, https://img.bubblebox.com/nurburgring-simulator-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Nürburgring Simulator cover" width="360" height="270" loading="lazy" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/nurburgring-simulator-360.jpg" alt="Nürburgring Simulator cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">Nürburgring Simulator</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">driving</span>
+                                        <span class="tag">racing</span>
+                                        <span class="tag">sport</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/driving-school-simulator" aria-label="Open Driving School Simulator">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/driving-school-simulator-360.avif 1x, https://img.bubblebox.com/driving-school-simulator-480.avif 2x, https://img.bubblebox.com/driving-school-simulator-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/driving-school-simulator-360.webp 1x, https://img.bubblebox.com/driving-school-simulator-480.webp 2x, https://img.bubblebox.com/driving-school-simulator-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/driving-school-simulator-360.jpg  1x, https://img.bubblebox.com/driving-school-simulator-480.jpg  2x, https://img.bubblebox.com/driving-school-simulator-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Driving School Simulator cover" width="360" height="270" loading="lazy" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/driving-school-simulator-360.jpg" alt="Driving School Simulator cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">Driving School Simulator</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">driving</span>
+                                        <span class="tag">car</span>
+                                        <span class="tag">educational</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/soccer-league" aria-label="Open Car Soccer League">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/soccer-league-360.avif 1x, https://img.bubblebox.com/soccer-league-480.avif 2x, https://img.bubblebox.com/soccer-league-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/soccer-league-360.webp 1x, https://img.bubblebox.com/soccer-league-480.webp 2x, https://img.bubblebox.com/soccer-league-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/soccer-league-360.jpg  1x, https://img.bubblebox.com/soccer-league-480.jpg  2x, https://img.bubblebox.com/soccer-league-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Car Soccer League cover" width="360" height="270" loading="lazy" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/soccer-league-360.jpg" alt="Car Soccer League cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">Car Soccer League</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">action</span>
+                                        <span class="tag">driving</span>
+                                        <span class="tag">sport</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/color-sand-puzzle" aria-label="Open Color Sand Puzzle">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/color-sand-puzzle-360.avif 1x, https://img.bubblebox.com/color-sand-puzzle-480.avif 2x, https://img.bubblebox.com/color-sand-puzzle-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/color-sand-puzzle-360.webp 1x, https://img.bubblebox.com/color-sand-puzzle-480.webp 2x, https://img.bubblebox.com/color-sand-puzzle-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/color-sand-puzzle-360.jpg  1x, https://img.bubblebox.com/color-sand-puzzle-480.jpg  2x, https://img.bubblebox.com/color-sand-puzzle-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Color Sand Puzzle cover" width="360" height="270" loading="lazy" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/color-sand-puzzle-360.jpg" alt="Color Sand Puzzle cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">Color Sand Puzzle</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">puzzle</span>
+                                        <span class="tag">thinking</span>
+                                        <span class="tag">blocks</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/apple-worm-level-up" aria-label="Open Apple Worm: Level Up">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/apple-worm-level-up-360.avif 1x, https://img.bubblebox.com/apple-worm-level-up-480.avif 2x, https://img.bubblebox.com/apple-worm-level-up-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/apple-worm-level-up-360.webp 1x, https://img.bubblebox.com/apple-worm-level-up-480.webp 2x, https://img.bubblebox.com/apple-worm-level-up-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/apple-worm-level-up-360.jpg  1x, https://img.bubblebox.com/apple-worm-level-up-480.jpg  2x, https://img.bubblebox.com/apple-worm-level-up-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Apple Worm: Level Up cover" width="360" height="270" loading="lazy" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/apple-worm-level-up-360.jpg" alt="Apple Worm: Level Up cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">Apple Worm: Level Up</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">puzzle</span>
+                                        <span class="tag">thinking</span>
+                                        <span class="tag">cartoon</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/kour-io" aria-label="Open Kour.io">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/kour-io-360.avif 1x, https://img.bubblebox.com/kour-io-480.avif 2x, https://img.bubblebox.com/kour-io-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/kour-io-360.webp 1x, https://img.bubblebox.com/kour-io-480.webp 2x, https://img.bubblebox.com/kour-io-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/kour-io-360.jpg  1x, https://img.bubblebox.com/kour-io-480.jpg  2x, https://img.bubblebox.com/kour-io-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Kour.io cover" width="360" height="270" loading="lazy" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/kour-io-360.jpg" alt="Kour.io cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">Kour.io</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">action</span>
+                                        <span class="tag">FPS</span>
+                                        <span class="tag">multiplayer</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/time-to-park" aria-label="Open Time to park">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/time-to-park-360.avif 1x, https://img.bubblebox.com/time-to-park-480.avif 2x, https://img.bubblebox.com/time-to-park-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/time-to-park-360.webp 1x, https://img.bubblebox.com/time-to-park-480.webp 2x, https://img.bubblebox.com/time-to-park-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/time-to-park-360.jpg  1x, https://img.bubblebox.com/time-to-park-480.jpg  2x, https://img.bubblebox.com/time-to-park-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Time to park cover" width="360" height="270" loading="lazy" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/time-to-park-360.jpg" alt="Time to park cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">Time to park</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">driving</span>
+                                        <span class="tag">skill</span>
+                                        <span class="tag">car</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/elastic-face" aria-label="Open Elastic Face">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/elastic-face-360.avif 1x, https://img.bubblebox.com/elastic-face-480.avif 2x, https://img.bubblebox.com/elastic-face-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/elastic-face-360.webp 1x, https://img.bubblebox.com/elastic-face-480.webp 2x, https://img.bubblebox.com/elastic-face-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/elastic-face-360.jpg  1x, https://img.bubblebox.com/elastic-face-480.jpg  2x, https://img.bubblebox.com/elastic-face-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Elastic Face cover" width="360" height="270" loading="lazy" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/elastic-face-360.jpg" alt="Elastic Face cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">Elastic Face</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">physics</span>
+                                        <span class="tag">funny</span>
+                                        <span class="tag">gadget</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/no-pain-no-gain" aria-label="Open No Pain No Gain: Ragdoll Sandbox">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/no-pain-no-gain-360.avif 1x, https://img.bubblebox.com/no-pain-no-gain-480.avif 2x, https://img.bubblebox.com/no-pain-no-gain-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/no-pain-no-gain-360.webp 1x, https://img.bubblebox.com/no-pain-no-gain-480.webp 2x, https://img.bubblebox.com/no-pain-no-gain-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/no-pain-no-gain-360.jpg  1x, https://img.bubblebox.com/no-pain-no-gain-480.jpg  2x, https://img.bubblebox.com/no-pain-no-gain-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="No Pain No Gain: Ragdoll Sandbox cover" width="360" height="270" loading="lazy" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/no-pain-no-gain-360.jpg" alt="No Pain No Gain: Ragdoll Sandbox cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">No Pain No Gain: Ragdoll Sandbox</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">physics</span>
+                                        <span class="tag">gadget</span>
+                                        <span class="tag">ragdoll</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </section>
+                    </section>
+                    <!-- RIGHT 40% -->
+                    <aside class="col-right">
+                        <section class="grid grid-right" aria-label="Right column">
+                            <article class="card">
+                                <a class="thumb" href="/nurburgring-simulator" aria-label="Open Nürburgring Simulator">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/nurburgring-simulator-360.avif 1x, https://img.bubblebox.com/nurburgring-simulator-480.avif 2x, https://img.bubblebox.com/nurburgring-simulator-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/nurburgring-simulator-360.webp 1x, https://img.bubblebox.com/nurburgring-simulator-480.webp 2x, https://img.bubblebox.com/nurburgring-simulator-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/nurburgring-simulator-360.jpg  1x, https://img.bubblebox.com/nurburgring-simulator-480.jpg  2x, https://img.bubblebox.com/nurburgring-simulator-640.jpg  3x" type="image/jpeg">
+                                        <img src="https://img.bubblebox.com/nurburgring-simulator-360.avif" alt="Nürburgring Simulator cover" width="360" height="270" fetchpriority="high" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/nurburgring-simulator-360.jpg" alt="Nürburgring Simulator cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">Nürburgring Simulator</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">driving</span>
+                                        <span class="tag">racing</span>
+                                        <span class="tag">sport</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/grand-extreme-racing" aria-label="Open Grand Extreme Racing">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/grand-extreme-racing-360.avif 1x, https://img.bubblebox.com/grand-extreme-racing-480.avif 2x, https://img.bubblebox.com/grand-extreme-racing-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/grand-extreme-racing-360.webp 1x, https://img.bubblebox.com/grand-extreme-racing-480.webp 2x, https://img.bubblebox.com/grand-extreme-racing-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/grand-extreme-racing-360.jpg  1x, https://img.bubblebox.com/grand-extreme-racing-480.jpg  2x, https://img.bubblebox.com/grand-extreme-racing-640.jpg  3x" type="image/jpeg">
+                                        <img src="https://img.bubblebox.com/grand-extreme-racing-360.avif" alt="Grand Extreme Racing cover" width="360" height="270" fetchpriority="high" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/grand-extreme-racing-360.jpg" alt="Grand Extreme Racing cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <h2 class="title title--overlay">Grand Extreme Racing</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">driving</span>
+                                        <span class="tag">racing</span>
+                                        <span class="tag">sport</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/go-kart-pro" aria-label="Open Go Kart Pro">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/go-kart-pro-360.avif 1x, https://img.bubblebox.com/go-kart-pro-480.avif 2x, https://img.bubblebox.com/go-kart-pro-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/go-kart-pro-360.webp 1x, https://img.bubblebox.com/go-kart-pro-480.webp 2x, https://img.bubblebox.com/go-kart-pro-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/go-kart-pro-360.jpg  1x, https://img.bubblebox.com/go-kart-pro-480.jpg  2x, https://img.bubblebox.com/go-kart-pro-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Go Kart Pro cover" width="360" height="270" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/go-kart-pro-360.jpg" alt="Go Kart Pro cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <h2 class="title title--overlay">Go Kart Pro</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">racing</span>
+                                        <span class="tag">sport</span>
+                                        <span class="tag">driving</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/madalin-cars-multiplayer" aria-label="Open Madalin Cars Multiplayer">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/madalin-cars-multiplayer-360.avif 1x, https://img.bubblebox.com/madalin-cars-multiplayer-480.avif 2x, https://img.bubblebox.com/madalin-cars-multiplayer-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/madalin-cars-multiplayer-360.webp 1x, https://img.bubblebox.com/madalin-cars-multiplayer-480.webp 2x, https://img.bubblebox.com/madalin-cars-multiplayer-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/madalin-cars-multiplayer-360.jpg  1x, https://img.bubblebox.com/madalin-cars-multiplayer-480.jpg  2x, https://img.bubblebox.com/madalin-cars-multiplayer-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Madalin Cars Multiplayer cover" width="360" height="270" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/madalin-cars-multiplayer-360.jpg" alt="Madalin Cars Multiplayer cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <h2 class="title title--overlay">Madalin Cars Multiplayer</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">multiplayer</span>
+                                        <span class="tag">racing</span>
+                                        <span class="tag">sport</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/gp-moto-racing-3" aria-label="Open GP Moto Racing 3">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/gp-moto-racing-3-360.avif 1x, https://img.bubblebox.com/gp-moto-racing-3-480.avif 2x, https://img.bubblebox.com/gp-moto-racing-3-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/gp-moto-racing-3-360.webp 1x, https://img.bubblebox.com/gp-moto-racing-3-480.webp 2x, https://img.bubblebox.com/gp-moto-racing-3-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/gp-moto-racing-3-360.jpg  1x, https://img.bubblebox.com/gp-moto-racing-3-480.jpg  2x, https://img.bubblebox.com/gp-moto-racing-3-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="GP Moto Racing 3 cover" width="360" height="270" loading="lazy" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/gp-moto-racing-3-360.jpg" alt="GP Moto Racing 3 cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <h2 class="title title--overlay">GP Moto Racing 3</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">racing</span>
+                                        <span class="tag">sport</span>
+                                        <span class="tag">motorcycle</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/gp-moto-racing" aria-label="Open GP Moto Racing">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/gp-moto-racing-360.avif 1x, https://img.bubblebox.com/gp-moto-racing-480.avif 2x, https://img.bubblebox.com/gp-moto-racing-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/gp-moto-racing-360.webp 1x, https://img.bubblebox.com/gp-moto-racing-480.webp 2x, https://img.bubblebox.com/gp-moto-racing-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/gp-moto-racing-360.jpg  1x, https://img.bubblebox.com/gp-moto-racing-480.jpg  2x, https://img.bubblebox.com/gp-moto-racing-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="GP Moto Racing cover" width="360" height="270" loading="lazy" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/gp-moto-racing-360.jpg" alt="GP Moto Racing cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <h2 class="title title--overlay">GP Moto Racing</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">arcade</span>
+                                        <span class="tag">racing</span>
+                                        <span class="tag">sport</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/mtb-hill-bike-racer" aria-label="Open MTB Hill Bike Racer">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/mtb-hill-bike-racer-360.avif 1x, https://img.bubblebox.com/mtb-hill-bike-racer-480.avif 2x, https://img.bubblebox.com/mtb-hill-bike-racer-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/mtb-hill-bike-racer-360.webp 1x, https://img.bubblebox.com/mtb-hill-bike-racer-480.webp 2x, https://img.bubblebox.com/mtb-hill-bike-racer-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/mtb-hill-bike-racer-360.jpg  1x, https://img.bubblebox.com/mtb-hill-bike-racer-480.jpg  2x, https://img.bubblebox.com/mtb-hill-bike-racer-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="MTB Hill Bike Racer cover" width="360" height="270" loading="lazy" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/mtb-hill-bike-racer-360.jpg" alt="MTB Hill Bike Racer cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <h2 class="title title--overlay">MTB Hill Bike Racer</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">racing</span>
+                                        <span class="tag">sport</span>
+                                        <span class="tag">simulation</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/micro-pilots" aria-label="Open Micro Pilots">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/micro-pilots-360.avif 1x, https://img.bubblebox.com/micro-pilots-480.avif 2x, https://img.bubblebox.com/micro-pilots-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/micro-pilots-360.webp 1x, https://img.bubblebox.com/micro-pilots-480.webp 2x, https://img.bubblebox.com/micro-pilots-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/micro-pilots-360.jpg  1x, https://img.bubblebox.com/micro-pilots-480.jpg  2x, https://img.bubblebox.com/micro-pilots-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Micro Pilots cover" width="360" height="270" loading="lazy" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/micro-pilots-360.jpg" alt="Micro Pilots cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <h2 class="title title--overlay">Micro Pilots</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">action</span>
+                                        <span class="tag">racing</span>
+                                        <span class="tag">skill</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/alpine-ski-master" aria-label="Open Alpine Ski Master">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/alpine-ski-master-360.avif 1x, https://img.bubblebox.com/alpine-ski-master-480.avif 2x, https://img.bubblebox.com/alpine-ski-master-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/alpine-ski-master-360.webp 1x, https://img.bubblebox.com/alpine-ski-master-480.webp 2x, https://img.bubblebox.com/alpine-ski-master-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/alpine-ski-master-360.jpg  1x, https://img.bubblebox.com/alpine-ski-master-480.jpg  2x, https://img.bubblebox.com/alpine-ski-master-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Alpine Ski Master cover" width="360" height="270" loading="lazy" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/alpine-ski-master-360.jpg" alt="Alpine Ski Master cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <h2 class="title title--overlay">Alpine Ski Master</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">racing</span>
+                                        <span class="tag">sport</span>
+                                        <span class="tag">winter</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/avalanche-a-penguin-adventure" aria-label="Open Avalanche: A Penguin Adventure">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/avalanche-a-penguin-adventure-360.avif 1x, https://img.bubblebox.com/avalanche-a-penguin-adventure-480.avif 2x, https://img.bubblebox.com/avalanche-a-penguin-adventure-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/avalanche-a-penguin-adventure-360.webp 1x, https://img.bubblebox.com/avalanche-a-penguin-adventure-480.webp 2x, https://img.bubblebox.com/avalanche-a-penguin-adventure-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/avalanche-a-penguin-adventure-360.jpg  1x, https://img.bubblebox.com/avalanche-a-penguin-adventure-480.jpg  2x, https://img.bubblebox.com/avalanche-a-penguin-adventure-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Avalanche: A Penguin Adventure cover" width="360" height="270" loading="lazy" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/avalanche-a-penguin-adventure-360.jpg" alt="Avalanche: A Penguin Adventure cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="badge">Classic</span>
+                                    <h2 class="title title--overlay">Avalanche: A Penguin Adventure</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">adventure</span>
+                                        <span class="tag">action</span>
+                                        <span class="tag">racing</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/mr-racer" aria-label="Open MR Racer">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/mr-racer-360.avif 1x, https://img.bubblebox.com/mr-racer-480.avif 2x, https://img.bubblebox.com/mr-racer-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/mr-racer-360.webp 1x, https://img.bubblebox.com/mr-racer-480.webp 2x, https://img.bubblebox.com/mr-racer-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/mr-racer-360.jpg  1x, https://img.bubblebox.com/mr-racer-480.jpg  2x, https://img.bubblebox.com/mr-racer-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="MR Racer cover" width="360" height="270" loading="lazy" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/mr-racer-360.jpg" alt="MR Racer cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <h2 class="title title--overlay">MR Racer</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">driving</span>
+                                        <span class="tag">racing</span>
+                                        <span class="tag">car</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/drift-hunters" aria-label="Open Drift Hunters">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/drift-hunters-360.avif 1x, https://img.bubblebox.com/drift-hunters-480.avif 2x, https://img.bubblebox.com/drift-hunters-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/drift-hunters-360.webp 1x, https://img.bubblebox.com/drift-hunters-480.webp 2x, https://img.bubblebox.com/drift-hunters-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/drift-hunters-360.jpg  1x, https://img.bubblebox.com/drift-hunters-480.jpg  2x, https://img.bubblebox.com/drift-hunters-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Drift Hunters cover" width="360" height="270" loading="lazy" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/drift-hunters-360.jpg" alt="Drift Hunters cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">Drift Hunters</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">driving</span>
+                                        <span class="tag">racing</span>
+                                        <span class="tag">skill</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/bmg-ragdoll-car-race" aria-label="Open BMG: Ragdoll Car Race">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/bmg-ragdoll-car-race-360.avif 1x, https://img.bubblebox.com/bmg-ragdoll-car-race-480.avif 2x, https://img.bubblebox.com/bmg-ragdoll-car-race-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/bmg-ragdoll-car-race-360.webp 1x, https://img.bubblebox.com/bmg-ragdoll-car-race-480.webp 2x, https://img.bubblebox.com/bmg-ragdoll-car-race-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/bmg-ragdoll-car-race-360.jpg  1x, https://img.bubblebox.com/bmg-ragdoll-car-race-480.jpg  2x, https://img.bubblebox.com/bmg-ragdoll-car-race-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="BMG: Ragdoll Car Race cover" width="360" height="270" loading="lazy" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/bmg-ragdoll-car-race-360.jpg" alt="BMG: Ragdoll Car Race cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">BMG: Ragdoll Car Race</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">driving</span>
+                                        <span class="tag">physics</span>
+                                        <span class="tag">racing</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/hyper-cars-ramp-crash" aria-label="Open Hyper Cars Ramp Crash">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/hyper-cars-ramp-crash-360.avif 1x, https://img.bubblebox.com/hyper-cars-ramp-crash-480.avif 2x, https://img.bubblebox.com/hyper-cars-ramp-crash-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/hyper-cars-ramp-crash-360.webp 1x, https://img.bubblebox.com/hyper-cars-ramp-crash-480.webp 2x, https://img.bubblebox.com/hyper-cars-ramp-crash-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/hyper-cars-ramp-crash-360.jpg  1x, https://img.bubblebox.com/hyper-cars-ramp-crash-480.jpg  2x, https://img.bubblebox.com/hyper-cars-ramp-crash-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Hyper Cars Ramp Crash cover" width="360" height="270" loading="lazy" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/hyper-cars-ramp-crash-360.jpg" alt="Hyper Cars Ramp Crash cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <span class="live">NEW</span>
+                                    <h2 class="title title--overlay">Hyper Cars Ramp Crash</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">driving</span>
+                                        <span class="tag">racing</span>
+                                        <span class="tag">car</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/turbo-stunt-racing" aria-label="Open Turbo Stunt Racing">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/turbo-stunt-racing-360.avif 1x, https://img.bubblebox.com/turbo-stunt-racing-480.avif 2x, https://img.bubblebox.com/turbo-stunt-racing-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/turbo-stunt-racing-360.webp 1x, https://img.bubblebox.com/turbo-stunt-racing-480.webp 2x, https://img.bubblebox.com/turbo-stunt-racing-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/turbo-stunt-racing-360.jpg  1x, https://img.bubblebox.com/turbo-stunt-racing-480.jpg  2x, https://img.bubblebox.com/turbo-stunt-racing-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Turbo Stunt Racing cover" width="360" height="270" loading="lazy" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/turbo-stunt-racing-360.jpg" alt="Turbo Stunt Racing cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <h2 class="title title--overlay">Turbo Stunt Racing</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">arcade</span>
+                                        <span class="tag">driving</span>
+                                        <span class="tag">multiplayer</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="card">
+                                <a class="thumb" href="/wrong-way" aria-label="Open Wrong Way">
+                                    <picture class="js-rpic">
+                                        <source data-srcset="https://img.bubblebox.com/wrong-way-360.avif 1x, https://img.bubblebox.com/wrong-way-480.avif 2x, https://img.bubblebox.com/wrong-way-640.avif 3x" type="image/avif">
+                                        <source data-srcset="https://img.bubblebox.com/wrong-way-360.webp 1x, https://img.bubblebox.com/wrong-way-480.webp 2x, https://img.bubblebox.com/wrong-way-640.webp 3x" type="image/webp">
+                                        <source data-srcset="https://img.bubblebox.com/wrong-way-360.jpg  1x, https://img.bubblebox.com/wrong-way-480.jpg  2x, https://img.bubblebox.com/wrong-way-640.jpg  3x" type="image/jpeg">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Wrong Way cover" width="360" height="270" loading="lazy" decoding="async">
+                                        <noscript>
+                                            <img src="https://img.bubblebox.com/wrong-way-360.jpg" alt="Wrong Way cover" width="360" height="270">
+                                        </noscript>
+                                    </picture>
+                                    <h2 class="title title--overlay">Wrong Way</h2>
+                                </a>
+                                <div class="meta">
+                                    <div class="tags">
+                                        <span class="tag">racing</span>
+                                        <span class="tag">car</span>
+                                        <span class="tag">driving</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </section>
+                    </aside>
+                </div>
+                <!-- END CONTENT -->
+                <script>
+                    (function(w) {
+                        // Ensure recent helper exists
+                        if (!w.BUBBLEBOXRecent || typeof w.BUBBLEBOXRecent.add !== 'function')
+                            return;
+
+                        const span = document.getElementById('game-id');
+                        if (!span)
+                            return;
+
+                        const rawId = span.dataset.gameId || span.getAttribute('data-game-id');
+                        const gameId = Number(rawId);
+                        if (!Number.isInteger(gameId) || gameId <= 0)
+                            return;
+
+                        // Wait 30 seconds before adding to recent
+                        setTimeout(function() {
+                            try {
+                                w.BUBBLEBOXRecent.add(gameId);
+                                console.log('[recent] auto-added after 30s', gameId);
+                            } catch (e) {
+                                console.warn('[recent] failed to auto-add', e);
+                            }
+                        }, 30000);
+                        // 30,000 ms = 30 seconds
+                    }
+                    )(window);
+                </script>
+                <footer class="foot">
+                    <div class="foot-copy">
+                        © 2006 - <span id="year"></span>
+                        Bubblebox. All rights reserved.
+  
+                    </div>
+                    <nav class="foot-links" aria-label="Site links">
+                        <a href="/berzerk-ball-games">Berzerk Ball</a>
+                        <span class="sep">•</span>
+                        <a href="/classic">Classic Flash Games</a>
+                        <span class="sep">•</span>
+                        <a href="/privacy-policy">Privacy Policy</a>
+                        <span class="sep">•</span>
+                        <a href="/copyright-policy">Copyright Policy</a>
+                        <span class="sep">•</span>
+                        <a href="/about">Contact Us</a>
+                        <span class="sep">•</span>
+                        <a href="/help">FAQ / Help</a>
+                    </nav>
+                </footer>
+            </main>
+        </div>
+        <script>
+            window.view = "game";
+        </script>
+        <script>
+            const yearEl = document.getElementById('year');
+            if (yearEl)
+                yearEl.textContent = new Date().getFullYear();
+            const hamburger = document.getElementById('hamburger');
+            const drawer = document.getElementById('drawer');
+            if (hamburger && drawer) {
+                hamburger.addEventListener('click', () => {
+                    const open = drawer.classList.toggle('open');
+                    hamburger.setAttribute('aria-expanded', open ? 'true' : 'false')
+                }
+                );
+                window.addEventListener('resize', () => {
+                    if (window.innerWidth > 900 && drawer.classList.contains('open')) {
+                        drawer.classList.remove('open');
+                        hamburger.setAttribute('aria-expanded', 'false')
+                    }
+                }
+                )
+            }
+            (function populateDrawer() {
+                const drawer = document.getElementById('drawer');
+                const drawerWrap = drawer?.querySelector('.drawer-wrap');
+                if (!drawer || !drawerWrap)
+                    return;
+                const autofill = (drawer.dataset.autofill || '').trim();
+                if (!autofill)
+                    return;
+                const wants = new Set(autofill.split(/[\s,]+/).filter(Boolean));
+                const existingHrefs = new Set(Array.from(drawerWrap.querySelectorAll('a[href]')).map(a => a.getAttribute('href')));
+                const makeLabel = (txt) => {
+                    const lab = document.createElement('div');
+                    lab.className = 'group-label';
+                    lab.textContent = txt;
+                    return lab
+                }
+                ;
+                const addLink = (href, text) => {
+                    if (!href || existingHrefs.has(href))
+                        return !1;
+                    const a = document.createElement('a');
+                    a.href = href;
+                    a.textContent = text.trim();
+                    drawerWrap.appendChild(a);
+                    existingHrefs.add(href);
+                    return !0
+                }
+                ;
+                if (wants.has('nav')) {
+                    const nav = document.querySelector('.nav');
+                    if (nav) {
+                        const links = nav.querySelectorAll('a[href]:not([data-noshow]):not(.no-drawer)');
+                        let added = 0;
+                        links.forEach(a => {
+                            added += addLink(a.getAttribute('href'), a.textContent) ? 1 : 0
+                        }
+                        );
+                        if (added)
+                            drawerWrap.prepend(makeLabel('NAVIGATION'));
+                    }
+                }
+                if (wants.has('side')) {
+                    const side = document.querySelector('.side');
+                    if (side) {
+                        const anchors = side.querySelectorAll('a.item[href]:not([data-noshow]):not(.no-drawer)');
+                        let added = 0;
+                        anchors.forEach(a => {
+                            const label = a.querySelector('.label');
+                            const text = (label ? label.textContent : a.textContent);
+                            added += addLink(a.getAttribute('href'), text) ? 1 : 0
+                        }
+                        );
+                        if (added)
+                            drawerWrap.appendChild(makeLabel('SIDEBAR'));
+                    }
+                }
+            }
+            )();
+            document.querySelector('#drawer')?.addEventListener('click', (e) => {
+                if (e.target.matches('a[href]')) {
+                    const drawer = document.getElementById('drawer');
+                    const hamburger = document.getElementById('hamburger');
+                    drawer.classList.remove('open');
+                    hamburger?.setAttribute('aria-expanded', 'false')
+                }
+            }
+            );
+            (function() {
+                const form = document.getElementById('site-search');
+                if (!form)
+                    return;
+                const input = form.querySelector('.search-input');
+                const icon = form.querySelector('.icon');
+                const kbd = form.querySelector('.kbd');
+                form.addEventListener('submit', (e) => {
+                    if (!input.value.trim()) {
+                        e.preventDefault();
+                        input.focus()
+                    }
+                }
+                );
+                if (icon) {
+                    icon.style.cursor = 'pointer';
+                    icon.addEventListener('click', () => {
+                        if (input.value.trim())
+                            form.submit();
+                        else
+                            input.focus()
+                    }
+                    )
+                }
+                if (kbd) {
+                    kbd.addEventListener('click', () => input.focus())
+                }
+                window.addEventListener('keydown', (e) => {
+                    if (e.key === '/' && !e.ctrlKey && !e.metaKey && !e.altKey) {
+                        const tag = (e.target.tagName || '').toLowerCase();
+                        const editable = e.target.isContentEditable || tag === 'input' || tag === 'textarea' || tag === 'select';
+                        if (!editable) {
+                            e.preventDefault();
+                            input.focus()
+                        }
+                    }
+                }
+                )
+            }
+            )();
+        </script>
+        <script>
+            ( () => {
+                const slotPx = el => Math.max(1, Math.round((el.closest('.thumb') || el).clientWidth));
+                const usesWDescriptors = srcset => /\s\d+w(?:\s|$)/.test(srcset || '');
+                const pickedWidth = img => {
+                    const file = (img.currentSrc || img.src || '').split('/').pop();
+                    const m = file.match(/-(\d+)x/);
+                    return m ? +m[1] : img.naturalWidth || 0
+                }
+                ;
+                const forceReselect = img => {
+                    const ss = img.srcset;
+                    img.srcset = '';
+                    requestAnimationFrame( () => {
+                        img.srcset = ss
+                    }
+                    )
+                }
+                ;
+                const promote = pic => {
+                    if (pic.__rpic)
+                        return;
+                    pic.__rpic = !0;
+                    const img = pic.querySelector('img');
+                    if (!img)
+                        return;
+                    let anyW = !1;
+                    pic.querySelectorAll('source').forEach(s => {
+                        if (s.dataset.srcset) {
+                            if (usesWDescriptors(s.dataset.srcset))
+                                anyW = !0;
+                            s.srcset = s.dataset.srcset;
+                            delete s.dataset.srcset
+                        }
+                    }
+                    );
+                    if (img.dataset.srcset) {
+                        if (usesWDescriptors(img.dataset.srcset))
+                            anyW = !0;
+                        img.srcset = img.dataset.srcset;
+                        delete img.dataset.srcset
+                    }
+                    if (img.dataset.src) {
+                        img.src = img.dataset.src;
+                        delete img.dataset.src
+                    }
+                    if (anyW)
+                        img.sizes = slotPx(img) + 'px';
+                    else
+                        img.removeAttribute('sizes');
+                    requestAnimationFrame( () => {
+                        const need = Math.round(slotPx(img) * devicePixelRatio);
+                        const have = pickedWidth(img);
+                        if ((have && have > need * 1.25) || (have && have < need * 0.85)) {
+                            forceReselect(img)
+                        }
+                    }
+                    );
+                    if (anyW) {
+                        const ro = new ResizeObserver( () => {
+                            const wanted = slotPx(img) + 'px';
+                            if (img.sizes !== wanted) {
+                                img.sizes = wanted;
+                                forceReselect(img)
+                            }
+                        }
+                        );
+                        ro.observe(img.closest('.thumb') || img)
+                    }
+                }
+                ;
+                const io = new IntersectionObserver( (entries) => {
+                    for (const e of entries)
+                        if (e.isIntersecting) {
+                            promote(e.target);
+                            io.unobserve(e.target)
+                        }
+                }
+                ,{
+                    rootMargin: '400px'
+                });
+                document.querySelectorAll('picture.js-rpic').forEach(pic => io.observe(pic));
+                new MutationObserver(muts => {
+                    for (const m of muts) {
+                        m.addedNodes.forEach(n => {
+                            if (n.nodeType !== 1)
+                                return;
+                            if (n.matches?.('picture.js-rpic'))
+                                io.observe(n);
+                            else
+                                n.querySelectorAll?.('picture.js-rpic').forEach(p => io.observe(p))
+                        }
+                        )
+                    }
+                }
+                ).observe(document.body, {
+                    childList: !0,
+                    subtree: !0
+                })
+            }
+            )();
+        </script>
+        <script>
+            ( () => {
+                const bar = document.getElementById('page-progress');
+                if (!bar)
+                    return;
+                window.addEventListener('pageshow', () => bar.style.width = '0%');
+                document.addEventListener('click', (e) => {
+                    const a = e.target.closest('a[href]');
+                    if (!a || e.defaultPrevented)
+                        return;
+                    if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0)
+                        return;
+                    if (a.hasAttribute('download') || (a.target && a.target !== '_self'))
+                        return;
+                    const href = a.getAttribute('href') || '';
+                    if (!href || href.startsWith('#'))
+                        return;
+                    const url = new URL(href,location.href);
+                    if (url.origin !== location.origin)
+                        return;
+                    bar.style.transition = 'none';
+                    bar.style.width = '0%';
+                    void bar.offsetWidth;
+                    bar.style.transition = 'width .3s ease';
+                    bar.style.width = '40%';
+                    setTimeout( () => bar.style.width = '100%', 400)
+                }
+                , {
+                    capture: !0
+                })
+            }
+            )();
+        </script>
+        <script src="/revive/js/search-suggest-min.js?v=2" type="module"></script>
+        <div class="game-overlay" id="gameOverlay" hidden aria-modal="true" role="dialog">
+            <button class="closebtn" id="closeBtn" style="margin-top:40px; margin-right:0px;" aria-label="Close">×</button>
+            <div class="game-loading" id="gameLoading" aria-hidden="true">
+                <div class="game-loading__dots" aria-label="Loading">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="overlay-game-wrapper" id="gameWrap" data-external-url="false" data-use-embed="false" data-allow-referrer="1" data-game-url="https://playhop.com/dist-app/298465?utm_source=distrib&amp;utm_medium=bubbleboxsl"></div>
+        </div>
+        <script>
+            /* Legacy inline onclick() shim — delegates to the real opener if present */
+            window.__ov = function(el, evt) {
+                try {
+                    if (evt) {
+                        evt.preventDefault();
+                        evt.stopPropagation();
+                        evt.stopImmediatePropagation();
+                    }
+                    if (typeof window.__ov_open === 'function')
+                        return window.__ov_open(el);
+                } catch (e) {
+                    console.error(e);
+                }
+                return false;
+            }
+            ;
+        </script>
+        <script>
+            (function() {
+                const overlay = document.getElementById('gameOverlay');
+                const wrap = document.getElementById('gameWrap');
+                const loadingEl = document.getElementById('gameLoading');
+                const playBtn = document.getElementById('playBtn');
+                const mobileBtn = document.getElementById('mobileBtn');
+                const heroImgBtn = document.getElementById('heroImgBtn');
+                const closeBtn = document.getElementById('closeBtn');
+
+                const GAME_ID = Number(document.querySelector('[data-game-id]')?.dataset?.gameId || 0);
+                const USE_EMBED = wrap?.dataset?.useEmbed === 'true';
+                const ALLOW_REFERRER = wrap?.dataset?.allowReferrer === '1';
+
+                let lastAddedId = 0
+                  , lastAddedAt = 0;
+                let loaderHideTimer = null;
+                let loaderSafetyTimer = null;
+                let openToken = 0;
+
+                function addRecentOnce(id) {
+                    if (!Number.isInteger(id) || id <= 0)
+                        return;
+                    const now = Date.now();
+                    if (id === lastAddedId && (now - lastAddedAt) < 1500)
+                        return;
+                    lastAddedId = id;
+                    lastAddedAt = now;
+                    if (window.BUBBLEBOXRecent?.add)
+                        window.BUBBLEBOXRecent.add(id);
+                }
+
+                function showLoader() {
+                    if (!loadingEl)
+                        return;
+                    loadingEl.classList.remove('is-hidden');
+                    loadingEl.classList.add('is-visible');
+                }
+
+                function hideLoader() {
+                    if (!loadingEl)
+                        return;
+
+                    loadingEl.classList.add('is-hidden');
+
+                    clearTimeout(loaderHideTimer);
+                    loaderHideTimer = setTimeout( () => {
+                        loadingEl.classList.remove('is-visible', 'is-hidden');
+                    }
+                    , 240);
+                }
+
+                function clearLoaderTimers() {
+                    clearTimeout(loaderHideTimer);
+                    clearTimeout(loaderSafetyTimer);
+                }
+
+                function buildGameElement(url) {
+                    let el;
+
+                    if (USE_EMBED) {
+                        el = document.createElement('embed');
+                        el.src = url;
+                        el.type = 'text/html';
+                    } else {
+                        el = document.createElement('iframe');
+                        el.src = url;
+                        el.title = 'Game';
+                        el.loading = 'eager';
+                        if (!ALLOW_REFERRER) {
+                            el.referrerPolicy = 'no-referrer';
+                        }
+                        el.allowFullscreen = true;
+                        el.setAttribute('allow', 'autoplay; fullscreen; gamepad; xr-spatial-tracking; clipboard-write');
+                    }
+
+                    Object.assign(el.style, {
+                        border: '0',
+                        width: '100%',
+                        height: '100%',
+                        display: 'block'
+                    });
+
+                    return el;
+                }
+
+                function openOverlay(fromBtn) {
+                    const url = fromBtn?.dataset?.gameUrl || wrap.dataset.gameUrl;
+                    const ext = fromBtn?.dataset?.externalUrl === 'true';
+                    if (!url)
+                        return false;
+
+                    const isAbs = /^https?:\/\//i.test(url);
+                    const sameOrigin = !isAbs || url.indexOf(location.origin) === 0;
+                    if (!sameOrigin && ext) {
+                        window.location.assign(url);
+                        return false;
+                    }
+
+                    if (GAME_ID)
+                        addRecentOnce(GAME_ID);
+
+                    openToken += 1;
+                    const myToken = openToken;
+
+                    clearLoaderTimers();
+                    wrap.replaceChildren();
+
+                    document.documentElement.classList.add('no-scroll');
+                    overlay.hidden = false;
+                    showLoader();
+
+                    closeBtn?.focus();
+                    window.addEventListener('keydown', escClose);
+
+                    // Let overlay + loader paint first, then create iframe
+                    requestAnimationFrame( () => {
+                        requestAnimationFrame( () => {
+                            if (myToken !== openToken)
+                                return;
+
+                            const el = buildGameElement(url);
+                            let loaderDone = false;
+
+                            const done = () => {
+                                if (loaderDone)
+                                    return;
+                                loaderDone = true;
+                                hideLoader();
+                            }
+                            ;
+
+                            el.addEventListener?.('load', () => {
+                                setTimeout(done, 150);
+                            }
+                            , {
+                                once: true
+                            });
+
+                            wrap.replaceChildren(el);
+
+                            // Safety fallback in case load is slow or inconsistent
+                            loaderSafetyTimer = setTimeout(done, 4500);
+                        }
+                        );
+                    }
+                    );
+
+                    return false;
+                }
+
+                function closeOverlay() {
+                    openToken += 1;
+                    clearLoaderTimers();
+
+                    overlay.hidden = true;
+                    document.documentElement.classList.remove('no-scroll');
+
+                    wrap.replaceChildren();
+                    if (loadingEl) {
+                        loadingEl.classList.remove('is-visible', 'is-hidden');
+                    }
+
+                    window.removeEventListener('keydown', escClose);
+                    playBtn?.focus();
+                }
+
+                function escClose(e) {
+                    if (e.key === 'Escape')
+                        closeOverlay();
+                }
+
+                ['playBtn', 'mobileBtn', 'heroImgBtn'].forEach(id => {
+                    const btn = document.getElementById(id);
+                    if (!btn)
+                        return;
+
+                    btn.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        e.stopImmediatePropagation();
+                        openOverlay(e.currentTarget);
+                    }
+                    , true);
+                }
+                );
+
+                closeBtn?.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    closeOverlay();
+                }
+                );
+
+                overlay?.addEventListener('click', (e) => {
+                    if (e.target === overlay)
+                        closeOverlay();
+                }
+                );
+
+                window.addEventListener('message', (e) => {
+                    try {
+                        const data = typeof e.data === 'string' ? JSON.parse(e.data) : e.data;
+                        if (data && (data.type === 'xogx:closeOverlay' || data.action === 'xogx:closeOverlay')) {
+                            closeOverlay();
+                        }
+                    } catch {}
+                }
+                );
+
+                window.__ov_open = openOverlay;
+            }
+            )();
+        </script>
+        <script>
+            /* Changelog toggle (unchanged) */
+            (function() {
+                const shortEl = document.getElementById('changelogShort');
+                const tpl = document.getElementById('fullChangelogTpl');
+                const btn = document.getElementById('toggleChangelog');
+                if (!shortEl || !tpl || !btn)
+                    return;
+
+                const shortHTML = shortEl.innerHTML.trim();
+                const fullHTML = (tpl.content && tpl.content.firstElementChild) ? tpl.content.firstElementChild.outerHTML : tpl.innerHTML;
+
+                if (!fullHTML || !fullHTML.trim()) {
+                    btn.style.display = 'none';
+                    return;
+                }
+
+                let showingFull = false;
+                btn.addEventListener('click', function() {
+                    if (!showingFull) {
+                        shortEl.innerHTML = fullHTML;
+                        btn.textContent = 'Show less';
+                        btn.setAttribute('aria-expanded', 'true');
+                        showingFull = true;
+                    } else {
+                        shortEl.innerHTML = shortHTML;
+                        btn.textContent = 'Show full changelog';
+                        btn.setAttribute('aria-expanded', 'false');
+                        showingFull = false;
+                    }
+                });
+            }
+            )();
+        </script>
+        <script>
+            ( () => {
+                const e = document.getElementById("gameContainer");
+                if (!e)
+                    return;
+                const t = +e.dataset.idealW || 800
+                  , o = +e.dataset.idealH || 600
+                  , n = ( () => {
+                    try {
+                        return +(new URL(location.href)).searchParams.get("maxwidth") || 1200
+                    } catch {
+                        return 1200
+                    }
+                }
+                )()
+                  , r = t / o;
+                e.style.setProperty("--hero-ar", r),
+                e.style.setProperty("--hero-max-w", Math.min(t, n) + "px")
+            }
+            )();
+        </script>
+        <script>
+            ( () => {
+                const e = document.getElementById("gameContainer")
+                  , t = document.getElementById("fsBtn");
+                if (!e || !t)
+                    return;
+                const o = () => document.fullscreenElement || document.webkitFullscreenElement || null
+                  , n = () => e.querySelector("ruffle-player") || e.querySelector("iframe") || e.querySelector("canvas") || e.querySelector("video") || e.querySelector("object, embed") || e;
+                async function r() {
+                    const t = n();
+                    try {
+                        return t.requestFullscreen ? await t.requestFullscreen({
+                            navigationUI: "hide"
+                        }) : t.webkitRequestFullscreen && t.webkitRequestFullscreen()
+                    } catch {
+                        try {
+                            return e.requestFullscreen ? await e.requestFullscreen({
+                                navigationUI: "hide"
+                            }) : e.webkitRequestFullscreen && e.webkitRequestFullscreen()
+                        } catch {}
+                    }
+                }
+                async function i() {
+                    try {
+                        return document.exitFullscreen ? await document.exitFullscreen() : document.webkitExitFullscreen && document.webkitExitFullscreen()
+                    } catch {}
+                }
+                const c = () => {
+                    const e = !!o();
+                    t.setAttribute("aria-pressed", e ? "true" : "false"),
+                    t.setAttribute("aria-label", e ? "Exit fullscreen" : "Enter fullscreen"),
+                    t.setAttribute("title", e ? "Exit fullscreen" : "Fullscreen")
+                }
+                ;
+                t.addEventListener("click", async () => {
+                    o() ? await i() : await r()
+                }
+                ),
+                document.addEventListener("fullscreenchange", c),
+                document.addEventListener("webkitfullscreenchange", c),
+                c()
+            }
+            )();
+        </script>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-E4TGEMTLX6"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'G-E4TGEMTLX6');
+        </script>
+        <script async data-id="101497429" src="//static.getclicky.com/js"></script>
+    </body>
+</html>
